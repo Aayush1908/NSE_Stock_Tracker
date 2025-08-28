@@ -1,5 +1,5 @@
 # Ignore credentials and sensitive files
-credential.json
+credentials.json
 *.env
 __pycache__/
 *.pyc
