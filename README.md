@@ -1,5 +1,5 @@
-📈 NSE Stock Prediction & Analysis
 
+# 📈 NSE Stock Price Prediction & Analysis  
 A Python-based application to analyze, visualize, and predict stock price trends from the NSE (National Stock Exchange of India) using real-time financial data.
 It leverages time-series analysis, technical indicators, and basic predictive models to generate insights such as expected returns, confidence intervals, and buy/sell signals.
 
