@@ -34,7 +34,7 @@ tickers = [
 print("🔗 Connecting to Google Sheets...")
 
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-creds = ServiceAccountCredentials.from_json_keyfile_name("credentials.json", scope)
+creds = ServiceAccountCredentials.from_json_keyfile_name("credential.json", scope)
 client = gspread.authorize(creds)
 sheet = client.open("NSE Price Table")
 worksheet = sheet.sheet1
